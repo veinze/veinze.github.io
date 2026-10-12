@@ -600,7 +600,7 @@ html,body{height:100%;overflow:hidden}
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         
-        <!-- Music Card: Radio -->
+           <!-- Music Card: Radio -->
         <div class="jason-card still md:col-span-2 p-5 pt-2" style="--sh:#8b5cf6">
           <div class="radio" id="radio">
             <div class="antenna"></div>
@@ -620,27 +620,11 @@ html,body{height:100%;overflow:hidden}
                   <label>VOL <input type="range" id="rVol" min="0" max="100" value="80" aria-label="Volume"></label>
                   <span class="btn y" role="button" tabindex="0" onclick="openModal('Liebesträume No. 3', 'Lagu klasik yang bagus ada banyak dan ini salah satunya', 'music', './assets/images/listz.jpg')">Lihat Foto</span>
                 </div>
-                <p id="rErr" class="text-xs text-jason-purpleLight mt-2" style="display:none">File lagu belum ditemukan di assets/audio/liebestraum.mp3</p>
+                <p id="rErr" class="text-xs text-jason-purpleLight mt-2" style="display:none">File lagu belum ditemukan di assets/audio/liebestraum.MP3</p>
               </div>
               <button class="knob" id="rKnob" aria-label="Putar atau jeda lagu"></button>
             </div>
-            <audio id="rAudio" preload="metadata"><source src="./assets/audio/liebestraum.mp3" type="audio/mpeg"></audio>
-          </div>
-        </div>
-
-        <!-- Coin Book -->
-        <div class="bookwrap">
-          <div class="book" tabindex="0" role="button" aria-label="Buku koin Yen Jepang" onclick="openModal('Yen Jepang (¥)', 'Koin yen itu bagus karena ga bakal kepake buat uang parkir', 'yen', './assets/images/uangyen.jpg')" onkeydown="if(event.key==='Enter')this.click()">
-            <div class="bk-page">
-              <h3>Yen Jepang (¥)</h3>
-              <p>Koin unik dengan desain presisi tinggi, kualitas bahan logam yang bagus, serta keunikan koin berlubang.</p>
-              <div class="chips"><span>500 Yen</span><span>50 Yen</span></div>
-              <small>Klik buku untuk foto lengkap</small>
-            </div>
-            <div class="bk-cover">
-              <div class="bk-front"><b>KOLEKSI KOIN</b><span class="yen">¥</span><small>Arahkan kursor untuk membuka</small></div>
-              <div class="bk-back"><img src="./assets/images/uangyen.jpg" alt="Koin Yen Jepang" onerror="this.src='https://placehold.co/400x500/162640/ffd23f?text=Foto+Koin'"></div>
-            </div>
+            <audio id="rAudio" preload="metadata"><source src="./assets/audio/liebestraum.MP3" type="audio/mpeg"></audio>
           </div>
         </div>
 
